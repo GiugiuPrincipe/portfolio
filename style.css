@@ -19,6 +19,7 @@ html {
 body {
     background-image: linear-gradient(to bottom, #220b34, #30001a);
     color: white;
+    overflow-x: hidden;
 }
 
 section {
@@ -495,6 +496,16 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .contatti form .input-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contatti form .input-box a {
+        margin: 1rem
     }
 }
 
